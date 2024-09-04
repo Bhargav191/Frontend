@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table form</title>
+  </head>
+  <body>
+    <div>
+    <h1>Student table form</h1>
+    <label>Name:</label>
+    <input type="text"  placeholder="Enter your name" required/>
+    <br><br/>
+    <label>Date of birth:</label>
+    <input type="date"  required />
+    <br /><br />
+    <label>Age:</label>
+    <input type="numbers" placeholder="Enter your Age" required/>
+    <br /><br />
+    <label>College name:</label>
+    <input type="text" required placeholder="Enter College Name" required/>
+    <br /><br />
+    <label>Phone number:</label>
+    <input type="number"placeholder="Enter your number" required />
+    <br /><br />
+    <!-- Gender -->
+    <fieldset style="width: 20%">
+      <legend>Gender:</legend>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label>Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label>Female</label>
+      <input type="radio" id="other" name="gender" value="other" required />
+      <label>Other</label>
+    </fieldset>
+    <br /><br />
+    <!-- skills -->
+     <fieldset style="width:30%">
+      <legend>Skills</legend>
+      <input type="checkbox" id="html" name="skills" value="HTML"/>
+      <label>HTML</label>
+      <br></br>
+      <input type="checkbox" id="js" name="skills" value="JavaScript"/>
+      <label>CSS</label>
+      <br></br>
+      <input type="checkbox" id="python" name="skills" value="Python"/>
+      <label>Python</label>
+      <br></br>
+      <input type="checkbox" id="java" name="skills" value="python"/>
+      <label>JAVA</label>
+     </fieldset>
+     <br></br>
+    <!-- drop down -->
+    <label>select role:</label>
+    <select>
+      <option value="student">Student</option>
+      <option value="employee">Employee</option>
+    </select>
+    <br /><br />
+
+    <!-- resume upload -->
+    <label>Resume:</label>
+    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" />
+    <br /><br />
+    <!-- Email -->
+    <label>Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your mail " required />
+    <br /><br />
+
+    <!-- password -->
+    <label>password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" />
+    <br /><br />
+    </div>
+  </body>
+</html>
